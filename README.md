@@ -94,8 +94,24 @@ Prashant Netne
 
 ---
 
-# Project Screenshots
 
 ## Airflow Pipeline
 
+This Airflow DAG orchestrates the complete ETL workflow for the retail sales pipeline.  
+The pipeline executes Silver layer transformations followed by Gold KPI aggregation using PySpark jobs.
+
 ![Airflow Pipeline](screenshots/airflow_pipeline.png)
+
+## Athena Query Results
+
+AWS Athena is used to query the Gold layer parquet data stored in Amazon S3.  
+This enables serverless SQL analytics and KPI reporting directly on the cloud data lake.
+
+![Athena Query](screenshots/athena_query.png)
+
+## Databricks Workspace
+
+Databricks workspace integration is used for cloud-based analytics, SQL warehousing, and scalable data engineering workflows.
+
+![Databricks Workspace](screenshots/databricks_workspace.png)
+
