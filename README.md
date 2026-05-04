@@ -115,3 +115,12 @@ Databricks workspace integration is used for cloud-based analytics, SQL warehous
 
 ![Databricks Workspace](screenshots/databricks_workspace.png)
 
+# Architecture & ER Diagram
+
+This diagram represents the complete end-to-end Retail Sales Cloud Pipeline architecture built using PySpark, AWS S3, Athena, Airflow, and Databricks.
+
+The project follows Medallion Architecture principles using Bronze, Silver, and Gold layers for scalable and analytics-ready data processing.
+
+The ER diagram also demonstrates the analytical star schema used for KPI reporting and business intelligence workloads.
+
+![Architecture Diagram](screenshots/retail-sales-cloud-pipeline-architecture.png)
