@@ -91,3 +91,11 @@ groupBy("region").agg(sum("total_sales"))
 # Author
 
 Prashant Netne
+
+---
+
+# Project Screenshots
+
+## Airflow Pipeline
+
+![Airflow Pipeline](screenshots/airflow_pipeline.png)
